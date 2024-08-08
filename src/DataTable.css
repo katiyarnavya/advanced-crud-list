@@ -1,0 +1,103 @@
+/* DataTable.css */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+}
+
+h1 {
+    text-align: center; /* Center the heading text */
+    margin-bottom: 20px;
+}
+
+.add-container {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center align items within the container */
+    margin-bottom: 20px;
+}
+
+.info-container {
+    display: flex;
+    gap: 10px; /* Space between input fields */
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.add-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Center text inside the button */
+}
+
+.add-btn:hover {
+    background-color: #10b336; /* Slightly darker green on hover */
+}
+.search-input {
+    display: flex;
+    justify-content: center; /* Center items horizontally within the container */
+    align-items: center; /* Center items vertically within the container */
+    margin-bottom: 20px; /* Add some space below */
+    gap: 10px; /* Optional: space between items in the search input */
+}
+.search-table-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+table{
+    border-collapse: collapse;
+}
+table th{
+    background-color: green;
+}
+table td , table th{
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    max-width: 500px;
+    word-wrap: break-word;
+    
+}
+.actions{
+    max-width: 80px;
+}
+.actions-btn1{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 3px 25px;
+}
+.actions-btn2{
+    padding: 10px 20px;
+    background-color: #df3030;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 25px;
+}
+.actions-btn1:hover{
+    background-color: rgb(93, 226, 86);
+}
+.actions-btn2:hover{
+    background-color: red;
+}
+
+
+
